@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="FileDocumentLink.widget.FileDocumentLink" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>File Document Link</name>
+  <description>>Displays a link to a file document. Should be  used in a FileDocument based dataview.</description>
+
+  <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABEklEQVQ4jZ3TvUpDQRAF4A+xEEkh
+IsHaOlr5CBZiJUEsLawkWElKsQ95CVvRRkQklVimzgNoYRdFxIhaXYsd9Xq5N/4cWJadmXNmZ3aW
+asyjgwGeMUQPG2M4n1jBPbIgD3Ad5wznqFWRl/GCN7QxHfY5NHAZIheYKBPoR0AzZ2uG7RgzOZHN
+IrmRU89jCi084SgX1ysKbIVjt6K8nfDXpZ4MJ0sywahC4BB3sUaoF5twG/tihcArTiLRAm6KATU8
+Sm8+WyECe1IpnTLnaTivKkTWpWd+kIbtG/Z9DUsWN+lKzW1JA5SFwOpP5LMoJyusvjRsY8kHYa9h
+LbJvY6ms5nYF+df4+DRZ3OTP6Eq1tv9Dfgd1NFTEKv6f1QAAAABJRU5ErkJggg==</icon>
+
+  <properties>
+		<property key="linktext" type="attribute" required="true">
+			<caption>Link Text</caption>
+			<category>Appearance</category>
+			<description>The caption of the link.</description>
+			<attributeTypes>
+				<attributeType name="String"/>
+			</attributeTypes>
+		</property>
+		<property key="showNewTab" type="boolean" required="true" defaultValue="true">
+			<caption>Show in new tab</caption>
+			<category>Appearance</category>
+			<description></description>
+		</property>
+	</properties>
+</widget>
+

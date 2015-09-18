@@ -1,0 +1,1 @@
+﻿define(["FileDocumentLink/widget/FileDocumentLink"], {});
